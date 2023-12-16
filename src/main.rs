@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 use std::io::{self, stdout, Read};
 use crossterm::terminal::enable_raw_mode;
 
@@ -32,4 +33,8 @@ fn main() {
             Err(err) => die(err),
         }
     }
+=======
+fn main() {
+    println!("Hello, world!");
+>>>>>>> be198f70ee6accfe441e209743d9464c6247577e
 }
